@@ -13,7 +13,7 @@ const MyHome = () => {
     setId(data.slip.id);
   };
 
-  useEffect(async () => {
+  useEffect(() => {
     rollDice();
   }, []);
 
